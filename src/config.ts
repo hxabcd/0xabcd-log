@@ -18,6 +18,21 @@ export const siteConfig: SiteConfig = {
 		hue: 280, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: true, // Hide the theme color picker for visitors
 	},
+	background: {
+		enable: true, // Enable background image
+		src: "src/assets/images/tsunagite_salt.jpg", // Background image URL (supports HTTPS)
+		position: "center", // Background position: 'top', 'center', 'bottom'
+		size: "cover", // Background size: 'cover', 'contain', 'auto'
+		repeat: "no-repeat", // Background repeat: 'no-repeat', 'repeat', 'repeat-x', 'repeat-y'
+		attachment: "fixed", // Background attachment: 'fixed', 'scroll', 'local'
+		opacity: 0.5, // Background opacity (0-1)
+	},
+	backgroundDark: {
+		// Background image for dark mode
+		enable: true,
+		src: "src/assets/images/fes_salt_dark.jpg",
+		opacity: 0.5,
+	},
 	banner: {
 		enable: false,
 		src: "assets/images/banner_salt.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
