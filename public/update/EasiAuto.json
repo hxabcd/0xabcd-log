@@ -1,9 +1,10 @@
 {
     "latest": "1.1.0",
-    "latest_dev": "1.1.100",
+    "latest_dev": null,
     "versions": {
         "1.0.0": {
-            "dev": false,
+            "is_dev": false,
+            "confirm_required": false,
             "highlights": [
                 {
                     "title": "设置界面",
@@ -20,7 +21,8 @@
             "downloads": []
         },
         "1.0.1": {
-            "dev": false,
+            "is_dev": false,
+            "confirm_required": false,
             "highlights": [],
             "others": [
                 "修复 触摸适配异常",
@@ -41,7 +43,8 @@
             ]
         },
         "1.1.0": {
-            "dev": false,
+            "is_dev": false,
+            "confirm_required": false,
             "highlights": [
                 {
                     "title": "ClassIsland 自动化编辑",
