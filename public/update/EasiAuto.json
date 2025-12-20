@@ -1,0 +1,63 @@
+{
+    "latest": "1.1.0",
+    "latest_dev": "1.1.100",
+    "versions": {
+        "1.0.0": {
+            "dev": false,
+            "highlights": [
+                {
+                    "title": "设置界面",
+                    "description": "基于 QFluentWidget，带来更方便、更快捷的设置体验"
+                },
+                {
+                    "title": "UI Automation 自动登录",
+                    "description": "自动定位并直接操作页面元素，不论什么分辨率/缩放都能轻松胜任，输入框被遮挡也不影响登录"
+                }
+            ],
+            "others": [
+                "优化 登录流程，现在希沃窗口打开后会自动检测"
+            ],
+            "downloads": []
+        },
+        "1.0.1": {
+            "dev": false,
+            "highlights": [],
+            "others": [
+                "修复 触摸适配异常",
+                "优化 设置界面使用体验",
+                "优化 登录后端实现"
+            ],
+            "downloads": [
+                {
+                    "channal": "default",
+                    "url": "https://github.com/hxabcd/easiauto/releases/download/1.0.1/EasiAuto.zip",
+                    "sha256": "01c608ed9012356cf1a5bfe81ea5740ecb04d622491d6ab957b209697c5e6564"
+                },
+                {
+                    "channal": "no_cv",
+                    "url": "https://github.com/hxabcd/easiauto/releases/download/1.0.1/EasiAuto_no_cv.zip",
+                    "sha256": "c4ceba176de78fccfbe0cf865ccb3e2d7fb9a83f3eeb23fded2533090de83e65"
+                }
+            ]
+        },
+        "1.1.0": {
+            "dev": false,
+            "highlights": [
+                {
+                    "title": "ClassIsland 自动化编辑",
+                    "description": "无需复杂的配置与操作，轻松生成 ClassIsland 自动化"
+                },
+                {
+                    "title": "自动更新",
+                    "description": "允许从互联网检查、下载并自动安装更新"
+                }
+            ],
+            "others": [
+                "修复 无法运行自动化",
+                "重构 设置UI",
+                "重构 配置存储"
+            ],
+            "downloads": []
+        }
+    }
+}
