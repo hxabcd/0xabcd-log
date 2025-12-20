@@ -5,6 +5,7 @@
         "1.0.0": {
             "is_dev": false,
             "confirm_required": false,
+            "description": null,
             "highlights": [
                 {
                     "title": "设置界面",
@@ -23,6 +24,7 @@
         "1.0.1": {
             "is_dev": false,
             "confirm_required": false,
+            "description": null,
             "highlights": [],
             "others": [
                 "修复 触摸适配异常",
@@ -45,6 +47,7 @@
         "1.1.0": {
             "is_dev": false,
             "confirm_required": false,
+            "description": null,
             "highlights": [
                 {
                     "title": "ClassIsland 自动化编辑",
