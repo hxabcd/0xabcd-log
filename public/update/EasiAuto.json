@@ -8,11 +8,11 @@
             "description": null,
             "highlights": [
                 {
-                    "title": "设置界面",
+                    "name": "设置界面",
                     "description": "基于 QFluentWidget，带来更方便、更快捷的设置体验"
                 },
                 {
-                    "title": "UI Automation 自动登录",
+                    "name": "UI Automation 自动登录",
                     "description": "自动定位并直接操作页面元素，不论什么分辨率/缩放都能轻松胜任，输入框被遮挡也不影响登录"
                 }
             ],
@@ -50,11 +50,11 @@
             "description": null,
             "highlights": [
                 {
-                    "title": "ClassIsland 自动化编辑",
+                    "name": "ClassIsland 自动化编辑",
                     "description": "无需复杂的配置与操作，轻松生成 ClassIsland 自动化"
                 },
                 {
-                    "title": "自动更新",
+                    "name": "自动更新",
                     "description": "允许从互联网检查、下载并自动安装更新"
                 }
             ],
