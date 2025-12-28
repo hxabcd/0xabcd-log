@@ -33,12 +33,12 @@
             ],
             "downloads": [
                 {
-                    "channal": "default",
+                    "channel": "default",
                     "url": "https://github.com/hxabcd/easiauto/releases/download/1.0.1/EasiAuto.zip",
                     "sha256": "01c608ed9012356cf1a5bfe81ea5740ecb04d622491d6ab957b209697c5e6564"
                 },
                 {
-                    "channal": "no_cv",
+                    "channel": "no_cv",
                     "url": "https://github.com/hxabcd/easiauto/releases/download/1.0.1/EasiAuto_no_cv.zip",
                     "sha256": "c4ceba176de78fccfbe0cf865ccb3e2d7fb9a83f3eeb23fded2533090de83e65"
                 }
@@ -65,12 +65,12 @@
             ],
             "downloads": [
                 {
-                    "channal": "default",
+                    "channel": "default",
                     "url": "https://github.com/hxabcd/easiauto/releases/download/1.0.1/EasiAuto.zip",
                     "sha256": "01c608ed9012356cf1a5bfe81ea5740ecb04d622491d6ab957b209697c5e6564"
                 },
                 {
-                    "channal": "no_cv",
+                    "channel": "no_cv",
                     "url": "https://github.com/hxabcd/easiauto/releases/download/1.0.1/EasiAuto_no_cv.zip",
                     "sha256": "c4ceba176de78fccfbe0cf865ccb3e2d7fb9a83f3eeb23fded2533090de83e65"
                 }
