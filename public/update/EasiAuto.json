@@ -1,6 +1,6 @@
 {
     "latest": "1.1.0",
-    "latest_dev": null,
+    "latest_dev": "1.1.1",
     "versions": {
         "1.0.0": {
             "is_dev": false,
@@ -44,7 +44,7 @@
                 }
             ]
         },
-        "1.1.1": {
+        "1.1.0": {
             "is_dev": false,
             "confirm_required": false,
             "description": null,
@@ -63,17 +63,29 @@
                 "重构 设置UI",
                 "重构 配置存储"
             ],
+            "downloads": []
+        },
+        "1.1.1": {
+            "is_dev": true,
+            "confirm_required": false,
+            "description": null,
+            "highlights": [
+                {
+                    "name": "测试",
+                    "description": "请输入文本"
+                }
+            ],
+            "others": [
+                "我是道理",
+                "我是道莉",
+                "我是滚木"
+            ],
             "downloads": [
                 {
                     "channel": "default",
                     "url": "https://github.com/hxabcd/easiauto/releases/download/1.0.1/EasiAuto.zip",
                     "sha256": "01c608ed9012356cf1a5bfe81ea5740ecb04d622491d6ab957b209697c5e6564"
                 },
-                {
-                    "channel": "no_cv",
-                    "url": "https://github.com/hxabcd/easiauto/releases/download/1.0.1/EasiAuto_no_cv.zip",
-                    "sha256": "c4ceba176de78fccfbe0cf865ccb3e2d7fb9a83f3eeb23fded2533090de83e65"
-                }
             ]
         }
     }
