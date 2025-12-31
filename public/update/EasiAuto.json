@@ -1,6 +1,6 @@
 {
-    "latest": "1.1.0",
-    "latest_dev": "1.1.1",
+    "latest": "1.0.1",
+    "latest_dev": "1.1.0a1",
     "versions": {
         "1.0.0": {
             "is_dev": false,
@@ -44,10 +44,10 @@
                 }
             ]
         },
-        "1.1.0": {
-            "is_dev": false,
+        "1.1.0a1": {
+            "is_dev": true,
             "confirm_required": false,
-            "description": null,
+            "description": "1.1 的第一个预览版，大部分主要功能基本可用",
             "highlights": [
                 {
                     "name": "ClassIsland 自动化编辑",
@@ -64,29 +64,6 @@
                 "重构 配置存储"
             ],
             "downloads": []
-        },
-        "1.1.1": {
-            "is_dev": true,
-            "confirm_required": false,
-            "description": null,
-            "highlights": [
-                {
-                    "name": "测试",
-                    "description": "请输入文本"
-                }
-            ],
-            "others": [
-                "我是道理",
-                "我是道莉",
-                "我是滚木"
-            ],
-            "downloads": [
-                {
-                    "channel": "default",
-                    "url": "https://github.com/hxabcd/easiauto/releases/download/1.0.1/EasiAuto.zip",
-                    "sha256": "01c608ed9012356cf1a5bfe81ea5740ecb04d622491d6ab957b209697c5e6564"
-                }
-            ]
         }
     }
 }
