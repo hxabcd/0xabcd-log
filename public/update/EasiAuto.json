@@ -34,12 +34,12 @@
             "downloads": [
                 {
                     "channel": "default",
-                    "url": "https://github.com/hxabcd/easiauto/releases/download/1.0.1/EasiAuto.zip",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/1.0.1/EasiAuto.zip",
                     "sha256": "01c608ed9012356cf1a5bfe81ea5740ecb04d622491d6ab957b209697c5e6564"
                 },
                 {
                     "channel": "no_cv",
-                    "url": "https://github.com/hxabcd/easiauto/releases/download/1.0.1/EasiAuto_no_cv.zip",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/1.0.1/EasiAuto_no_cv.zip",
                     "sha256": "c4ceba176de78fccfbe0cf865ccb3e2d7fb9a83f3eeb23fded2533090de83e65"
                 }
             ]
@@ -63,7 +63,13 @@
                 "重构 设置UI",
                 "重构 配置存储"
             ],
-            "downloads": []
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/1.1.0a1/EasiAuto_1.1.0_alpha1.zip",
+                    "sha256": "08a92fe510fd5c613f2b9c9d9e920dac9e92b19998f5f2ebb3212c522dd1543b"
+                }
+            ]
         }
     }
 }
