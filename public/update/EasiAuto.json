@@ -59,6 +59,7 @@
                 }
             ],
             "others": [
+                "新增 推迟登录",
                 "修复 无法运行自动化",
                 "重构 设置UI",
                 "重构 配置存储"
@@ -70,6 +71,26 @@
                     "sha256": "08a92fe510fd5c613f2b9c9d9e920dac9e92b19998f5f2ebb3212c522dd1543b"
                 }
             ]
+        },
+        "1.1.0a2": {
+            "is_dev": true,
+            "confirm_required": false,
+            "description": "1.1 的第二个预览版，修复了一些 Bug",
+            "highlights": [],
+            "others": [],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/1.1.0a2/EasiAuto_1.1.0_alpha2.zip",
+                    "sha256": "b89449166a07eb7df4efa586a1a1d3bc7b4e91f12be902561502e39bb23f640a"
+                },
+                {
+                    "channel": "no_cv",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/1.1.0a2/EasiAuto_1.1.0_alpha2_no_cv.zip",
+                    "sha256": "9ae342fe584700aa5ccd72a156922c6a47436302e385e06c31f2d0e570ca60b4"
+                }
+            ]
         }
+
     }
 }
