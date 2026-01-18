@@ -1,6 +1,6 @@
 {
-    "latest": "1.0.1",
-    "latest_dev": "1.1.0a1",
+    "latest": "1.1.0",
+    "latest_dev": "1.1.0",
     "versions": {
         "1.0.0": {
             "is_dev": false,
@@ -90,7 +90,42 @@
                     "sha256": "9ae342fe584700aa5ccd72a156922c6a47436302e385e06c31f2d0e570ca60b4"
                 }
             ]
+        },
+        "1.1.0": {
+            "is_dev": false,
+            "confirm_required": false,
+            "description": "1.1.0 正式版",
+            "highlights": [
+                {
+                    "name": "ClassIsland 自动化编辑",
+                    "description": "无需复杂的配置与操作，轻松生成 ClassIsland 自动化"
+                },
+                {
+                    "name": "自动更新",
+                    "description": "允许从互联网检查、下载并自动安装更新"
+                }
+            ],
+            "others": [
+                "新增 推迟登录",
+                "重构 设置页",
+                "重构 关于页",
+                "重构 运行前提示弹窗",
+                "重构 配置存储",
+                "优化 自动化管理",
+                "优化 异常处理"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/1.1.0/EasiAuto_1.1.0.zip",
+                    "sha256": "e532413cda99133816249d65a3e981d10fc2d1d0b5f290ddd8dc5e78dfe78692"
+                },
+                {
+                    "channel": "no_cv",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/1.1.0/EasiAuto_1.1.0_no_cv.zip",
+                    "sha256": "fa64e11a3596afe65de741f987507b50ed42f4282ad204803c5ed5fd8467461a"
+                }
+            ]
         }
-
     }
 }
