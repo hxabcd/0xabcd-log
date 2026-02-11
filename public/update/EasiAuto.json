@@ -145,7 +145,18 @@
                 "优化 应用体积",
                 "优化 项目结构"
             ],
-            "downloads": []
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/1.1.1/EasiAuto_v1.1.1.zip",
+                    "sha256": "6f099f9d639385fd7c624504901143b30e216d2a3f0036c18ff1fcf715d63630"
+                },
+                {
+                    "channel": "lite",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/1.1.1/EasiAuto_v1.1.1_lite.zip",
+                    "sha256": "41a4b6f79c31cfb53c2ca8adb2998d3a3c16ff4d877bdd3fb04efe52e52bcb3a"
+                }
+            ]
         }
     }
 }
