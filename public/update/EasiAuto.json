@@ -1,5 +1,5 @@
 {
-    "latest": "1.1.1",
+    "latest": "1.1.2",
     "latest_dev": "1.1.0a2",
     "versions": {
         "1.0.0": {
@@ -155,6 +155,35 @@
                     "channel": "lite",
                     "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.1/EasiAuto_v1.1.1_lite.zip",
                     "sha256": "4b3f7c036224881a0fa9e23f4e50af0e0bd3c8cd35089e5ccdf2479b81456fc7"
+                }
+            ]
+        },
+        "1.1.2": {
+            "is_dev": false,
+            "confirm_required": false,
+            "description": "EasiAuto 再升级，你的下一个自动登录，何必是模拟点击？\n> Your EasiNote was hacked :P      (bushi)",
+            "highlights": [
+                {
+                    "name": "注入进程登录",
+                    "description": "直接操作希沃白板进程调用登录方法，超越模拟用户点击"
+                }
+            ],
+            "others": [
+                "修复 单例检查",
+                "新增 完整/精简版识别",
+                "调整 部分默认配置项",
+                "优化 更新相关"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.2/EasiAuto_v1.1.2.zip",
+                    "sha256": "fd483debb2229ee2a55d5999ab0ba25591f4d21e57a0f411562a4ae72bc55529"
+                },
+                {
+                    "channel": "lite",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.2/EasiAuto_v1.1.2_lite.zip",
+                    "sha256": "006349bb1289f99f17389d8f821d80fa281b780763531ebe2d9cab7103f88ce3"
                 }
             ]
         }
