@@ -1,5 +1,5 @@
 {
-    "latest": "1.1.4r1",
+    "latest": "1.2.1",
     "latest_dev": "1.2.0",
     "versions": {
         "1.0.0": {
@@ -398,6 +398,23 @@
                     "channel": "default",
                     "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.0/EasiAuto_v1.2.0.zip",
                     "sha256": "91398f685199fbeb6b036d331f59e023b45bad547e6b5588a7efc4703a6653b8"
+                }
+            ]
+        },
+        "1.2.1": {
+            "is_dev": false,
+            "confirm_required": false,
+            "description": null,
+            "highlights": [],
+            "others": [
+                "优化 错误处理逻辑",
+                "修复 档案校验时机错误 (#28)"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.1/EasiAuto_v1.2.1.zip",
+                    "sha256": "df19fa626414fc50ac8b4bd3bff890d67495dd1c120fd78a71fcae64905fdbf5"
                 }
             ]
         }
