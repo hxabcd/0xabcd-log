@@ -19,7 +19,7 @@ export const siteConfig: SiteConfig = {
 		fixed: true, // Hide the theme color picker for visitors
 	},
 	background: {
-		enable: true, // Enable background image
+		enable: false, // Enable background image
 		src: "src/assets/images/tsunagite_salt.jpg", // Background image URL (supports HTTPS)
 		position: "center", // Background position: 'top', 'center', 'bottom'
 		size: "cover", // Background size: 'cover', 'contain', 'auto'
