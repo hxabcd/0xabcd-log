@@ -1,0 +1,492 @@
+{
+    "latest": "1.2.1",
+    "latest_dev": "1.2.2b2",
+    "versions": {
+        "1.0.0": {
+            "is_dev": false,
+            "confirm_required": false,
+            "description": null,
+            "highlights": [
+                {
+                    "name": "设置界面",
+                    "description": "基于 QFluentWidget，带来更方便、更快捷的设置体验"
+                },
+                {
+                    "name": "UI Automation 自动登录",
+                    "description": "自动定位并直接操作页面元素，不论什么分辨率/缩放都能轻松胜任，输入框被遮挡也不影响登录"
+                }
+            ],
+            "others": [
+                "优化 登录流程，现在希沃窗口打开后会自动检测"
+            ],
+            "downloads": []
+        },
+        "1.0.1": {
+            "is_dev": false,
+            "confirm_required": false,
+            "description": null,
+            "highlights": [],
+            "others": [
+                "修复 触摸适配异常",
+                "优化 设置界面使用体验",
+                "优化 登录后端实现"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.0.1/EasiAuto.zip",
+                    "sha256": "01c608ed9012356cf1a5bfe81ea5740ecb04d622491d6ab957b209697c5e6564"
+                },
+                {
+                    "channel": "no_cv",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.0.1/EasiAuto_no_cv.zip",
+                    "sha256": "c4ceba176de78fccfbe0cf865ccb3e2d7fb9a83f3eeb23fded2533090de83e65"
+                }
+            ]
+        },
+        "1.1.0a1": {
+            "is_dev": true,
+            "confirm_required": false,
+            "description": "1.1 的第一个预览版，大部分主要功能基本可用",
+            "highlights": [
+                {
+                    "name": "ClassIsland 自动化编辑",
+                    "description": "无需复杂的配置与操作，轻松生成 ClassIsland 自动化"
+                },
+                {
+                    "name": "自动更新",
+                    "description": "允许从互联网检查、下载并自动安装更新"
+                }
+            ],
+            "others": [
+                "新增 推迟登录",
+                "修复 无法运行自动化",
+                "重构 设置UI",
+                "重构 配置存储"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.0a1/EasiAuto_1.1.0_alpha1.zip",
+                    "sha256": "08a92fe510fd5c613f2b9c9d9e920dac9e92b19998f5f2ebb3212c522dd1543b"
+                }
+            ]
+        },
+        "1.1.0a2": {
+            "is_dev": true,
+            "confirm_required": false,
+            "description": "1.1 的第二个预览版，修复了一些 Bug",
+            "highlights": [],
+            "others": [],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.0a2/EasiAuto_1.1.0_alpha2.zip",
+                    "sha256": "b89449166a07eb7df4efa586a1a1d3bc7b4e91f12be902561502e39bb23f640a"
+                },
+                {
+                    "channel": "no_cv",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.0a2/EasiAuto_1.1.0_alpha2_no_cv.zip",
+                    "sha256": "9ae342fe584700aa5ccd72a156922c6a47436302e385e06c31f2d0e570ca60b4"
+                }
+            ]
+        },
+        "1.1.0": {
+            "is_dev": false,
+            "confirm_required": false,
+            "description": "1.1.0 正式版",
+            "highlights": [
+                {
+                    "name": "ClassIsland 自动化编辑",
+                    "description": "无需复杂的配置与操作，轻松生成 ClassIsland 自动化"
+                },
+                {
+                    "name": "自动更新",
+                    "description": "允许从互联网检查、下载并自动安装更新"
+                }
+            ],
+            "others": [
+                "新增 推迟登录",
+                "重构 设置页",
+                "重构 关于页",
+                "重构 运行前提示弹窗",
+                "重构 配置存储",
+                "优化 自动化管理",
+                "优化 异常处理"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.0/EasiAuto_1.1.0.zip",
+                    "sha256": "e532413cda99133816249d65a3e981d10fc2d1d0b5f290ddd8dc5e78dfe78692"
+                },
+                {
+                    "channel": "no_cv",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.0/EasiAuto_1.1.0_no_cv.zip",
+                    "sha256": "fa64e11a3596afe65de741f987507b50ed42f4282ad204803c5ed5fd8467461a"
+                }
+            ]
+        },
+        "1.1.1": {
+            "is_dev": false,
+            "confirm_required": false,
+            "description": "注意：此次更新中对调了固定位置与自动定位的内部ID，这意味着原先使用自动定位的用户会自动切换为固定位置，如有需要请手动前往调整。",
+            "highlights": [
+                {
+                    "name": "固定位置登录",
+                    "description": "通过智能缩放算法，自动识别不同分辨率与缩放并调整，在任意屏幕上快速登录"
+                }
+            ],
+            "others": [
+                "新增 仅重置部分设置项",
+                "新增 兼容模式输入",
+                "修复 无法正确识别 ClassIsland 1.x 的运行状态",
+                "修复 Alt+F4 退出时异常",
+                "优化 应用体积",
+                "优化 项目结构"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.1/EasiAuto_v1.1.1.zip",
+                    "sha256": "2bdcd372293df173ac35fe16c66c21f36c0ced97fb227b57832933f515355b4d"
+                },
+                {
+                    "channel": "lite",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.1/EasiAuto_v1.1.1_lite.zip",
+                    "sha256": "4b3f7c036224881a0fa9e23f4e50af0e0bd3c8cd35089e5ccdf2479b81456fc7"
+                }
+            ]
+        },
+        "1.1.2": {
+            "is_dev": true,
+            "confirm_required": false,
+            "description": "EasiAuto 再升级，你的下一个自动登录，何必是模拟点击？\n> Your EasiNote was hacked :P      (bushi)",
+            "highlights": [
+                {
+                    "name": "注入进程登录",
+                    "description": "直接操作希沃白板进程调用登录方法，超越模拟用户点击"
+                }
+            ],
+            "others": [
+                "修复 单例检查",
+                "新增 完整/精简版识别",
+                "调整 部分默认配置项",
+                "优化 更新相关"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.2/EasiAuto_v1.1.2.zip",
+                    "sha256": "f01355ad102085076a7c16612e0f59378c5267fef3f40f1caf37f72d6fffc31e"
+                },
+                {
+                    "channel": "lite",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.2/EasiAuto_v1.1.2_lite.zip",
+                    "sha256": "006349bb1289f99f17389d8f821d80fa281b780763531ebe2d9cab7103f88ce3"
+                }
+            ]
+        },
+        "1.1.3": {
+            "is_dev": true,
+            "confirm_required": false,
+            "description": "EasiAuto 首支宣传片加紧制作中..... (Coming Soooooon)",
+            "highlights": [
+                {
+                    "name": "登录状态浮窗",
+                    "description": "一目了然地显示当前登录任务执行状态，同时支持打断登录"
+                }
+            ],
+            "others": [
+                "新增 更多的更新镜像源及自动选择",
+                "新增 更新包分支选择",
+                "新增 多开时传参至已有进程",
+                "优化 登录流程-唤起/查找窗口",
+                "优化 弱网环境使用体验",
+                "优化 运行前弹窗倒计时使用等宽字体",
+                "修复 运行前弹窗异常退出时行为不正确",
+                "修复 无法保持单例",
+                "修复 更新时警示横幅仍显示",
+                "修复 自动化编辑状态更新不及时",
+                "重构 项目结构"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.3/EasiAuto_v1.1.3.zip",
+                    "sha256": "249c42c0afa07088bcb8168d0bf29c51f0df40a9456f04a50173a16e26489633"
+                },
+                {
+                    "channel": "lite",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.3/EasiAuto_v1.1.3_lite.zip",
+                    "sha256": "2d0baf2c2708700bb190752d6ecb1baea1981017d3a60e232f6f33188ef4b017"
+                }
+            ]
+        },
+        "1.1.4": {
+            "is_dev": false,
+            "confirm_required": false,
+            "description": "整合了 1.1.2 与 1.1.3 的更新内容，修复了大量 Bug，准备即将到来的 1.2 版本",
+            "highlights": [
+                {
+                    "name": "注入进程登录",
+                    "description": "直接操作希沃白板进程调用登录方法，超越模拟用户点击"
+                },
+                {
+                    "name": "登录状态浮窗",
+                    "description": "一目了然地显示当前登录任务执行状态，同时支持打断登录"
+                }
+            ],
+            "others": [
+                "新增 更多的更新镜像源及自动选择",
+                "新增 更新包分支选择",
+                "新增 多开时传参至已有进程",
+                "新增 完整/精简版识别",
+                "新增 自定义查杀",
+                "优化 登录流程-唤起/查找窗口",
+                "优化 弱网环境使用体验",
+                "优化 运行前弹窗倒计时使用等宽字体",
+                "优化 更新相关",
+                "优化 部分默认配置项",
+                "优化 登录后更新检查流程与延迟测试时机",
+                "优化 进程结束与启动",
+                "优化 希沃白板存在检测",
+                "优化 为Automator的方法提供统一入口",
+                "优化 停止登录时不执行更新检查",
+                "修复 UIA 登录不可用",
+                "修复 固定位置登录缩放异常",
+                "修复 固定位置登录在非 Iwb 模式下失效",
+                "修复 无法切换窗口",
+                "修复 构建后无法正确区分应用包分支",
+                "修复 登录后更新检查无法正常退出",
+                "修复 启动时由于存在更新导致闪退",
+                "修复 无法创建快捷方式",
+                "修复 单例检查",
+                "修复 运行前弹窗异常退出时行为不正确",
+                "修复 无法保持单例",
+                "修复 更新时警示横幅仍显示",
+                "修复 自动化编辑状态更新不及时",
+                "重构 项目结构",
+                "其他 重新启用持续构建"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.4/EasiAuto_v1.1.4.zip",
+                    "sha256": "e07217f048e8780957f444f01af31eff6d1d9e4c3c501b2046f578d106292828"
+                },
+                {
+                    "channel": "lite",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.4/EasiAuto_v1.1.4_lite.zip",
+                    "sha256": "5ad1a34233826595ff60b39309295bfc6606b389ca41f0d630f361789d4d263c"
+                }
+            ]
+        },
+        "1.2.0b1": {
+            "is_dev": true,
+            "confirm_required": true,
+            "description": "注意：此版本为早期测试版。更新至此版本后，你需要手动在 ClassIsland 清除已有的自动化并重新在档案中创建。",
+            "highlights": [
+                {
+                    "name": "分离登录档案",
+                    "description": "在应用档案中独立存储登录账号相关的数据"
+                }
+            ],
+            "others": [
+                "新增 运行前弹窗快捷键",
+                "修复 固定位置登录在非 Iwb 模式下仍失效",
+                "修复 获取程序自身路径时不合预期",
+                "其他 将数据文件移动至 /data 目录下"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.0b1/EasiAuto_v1.2.0b1.zip",
+                    "sha256": "ef3f54557f5c8f2ce0ddb472eae8e226c9bcc4cc48eaa451815aa3151376c59d"
+                },
+                {
+                    "channel": "lite",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.0b1/EasiAuto_v1.2.0b1_lite.zip",
+                    "sha256": "e20d32befc4e1d10f25511efcc19c72c9d196eb7504da50c554ab39b2ec7c7f7"
+                }
+            ]
+        },
+        "1.1.4r1": {
+            "is_dev": false,
+            "confirm_required": false,
+            "description": "修复了几个影响体验的 Bug",
+            "highlights": [],
+            "others": [
+                "修复 固定位置在非 Iwb 模式下仍失效",
+                "修复 OpenCV 不可用",
+                "修复 可执行文件名称错误",
+                "修复 关于页其他信息折叠抽搐"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.4r1/EasiAuto_v1.1.4r1.zip",
+                    "sha256": "ab731c53a2f5fbe7eeecada55039469a904bf501d1b3809affd7fed3bd833090"
+                },
+                {
+                    "channel": "lite",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.1.4r1/EasiAuto_v1.1.4r1_lite.zip",
+                    "sha256": "69495f05d7c814b208d876e571aabd7b47cdec8bd2f7e386a8b02cf0cffebd1a"
+                }
+            ]
+        },
+        "1.2.0a1": {
+            "is_dev": true,
+            "confirm_required": true,
+            "description": "注意：此版本为早期测试版。更新至此版本后，你需要手动在 ClassIsland 清除已有的自动化并重新在档案中创建。\n此版本基于 v1.2.0b1 的基础上继续完善了新版 ClassIsland 编辑，修复了诸多问题，并进行了一定的测试。",
+            "highlights": [
+                {
+                    "name": "重构自动化管理",
+                    "description": "使用基于账号-科目绑定的全新 ClassIsland 联动"
+                }
+            ],
+            "others": [
+                "重构 档案管理与数据绑定逻辑",
+                "修复 缓解了 UI 中多次运行登录流程时的异常",
+                "修复 OpenCV 不可用",
+                "修复 设置项索引被错误写入配置文件的问题",
+                "优化 UI 细节",
+                "优化 构建脚本与优化发版工具",
+                "其他 移动图标与管理器位置"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.0a1/EasiAuto_v1.2.0a1.zip",
+                    "sha256": "574b48351c4e683dfb057be883e79f95622394ce598e983ac98c2d703a8c0b03"
+                },
+                {
+                    "channel": "lite",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.0a1/EasiAuto_v1.2.0a1_lite.zip",
+                    "sha256": "cc67f09324360f792c9bead6270ced7daa71ca5963fbe7976689c83565ca8f7b"
+                }
+            ]
+        },
+        "1.2.0": {
+            "is_dev": true,
+            "confirm_required": false,
+            "description": null,
+            "highlights": [],
+            "others": [
+                "新增 远程公告",
+                "新增 使用数据统计 (#17)",
+                "优化 构建脚本与发行中心",
+                "修复 在不同缩放下登录状态浮窗显示位置错误 (#25)",
+                "其他 完善遥测数据"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.0/EasiAuto_v1.2.0.zip",
+                    "sha256": "91398f685199fbeb6b036d331f59e023b45bad547e6b5588a7efc4703a6653b8"
+                }
+            ]
+        },
+        "1.2.1": {
+            "is_dev": false,
+            "confirm_required": false,
+            "description": null,
+            "highlights": [
+                {
+                    "name": "重构自动化管理",
+                    "description": "基于全新的科目-档案绑定，可拓展性更强"
+                }
+            ],
+            "others": [
+                "新增 远程公告",
+                "新增 使用数据统计 (#17)",
+                "新增 运行前弹窗快捷键",
+                "优化 UI 细节",
+                "优化 构建脚本与发行中心",
+                "优化 异常处理逻辑",
+                "修复 OpenCV 不可用",
+                "修复 在不同缩放下登录状态浮窗显示位置错误 (#25)",
+                "修复 设置项索引被错误写入配置文件的问题",
+                "修复 获取程序自身路径时不合预期",
+                "修复 缓解了 UI 中多次运行登录流程时的异常",
+                "修复 固定位置登录在非 Iwb 模式下仍失效",
+                "修复 档案校验时机错误 (#28)",
+                "其他 移动图标与管理器位置",
+                "其他 完善遥测数据",
+                "其他 将数据文件移动至 /data 目录下"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.1/EasiAuto_v1.2.1.zip",
+                    "sha256": "df19fa626414fc50ac8b4bd3bff890d67495dd1c120fd78a71fcae64905fdbf5"
+                }
+            ]
+        },
+        "1.2.2b1": {
+            "is_dev": true,
+            "confirm_required": false,
+            "description": "注意：“二维码登录”首次需管理员权限替换 DLL。“识别当前已登录账号”将在后续完善对其他登录方式的支持。",
+            "highlights": [
+                {
+                    "name": "二维码登录",
+                    "description": "支持扫描二维码添加档案，极速登录"
+                },
+                {
+                    "name": "识别当前已登录账号",
+                    "description": "运行前检测已登录账号，避免重复登录"
+                }
+            ],
+            "others": [
+                "新增 隐私保护遮罩",
+                "新增 手动导入旧自动化及配套界面",
+                "新增 公告支持设置版本范围",
+                "新增 toast 通知服务，支持按钮回调",
+                "优化 使用 PyInstaller 替代 Nuitka，大幅加快构建速度",
+                "修复 lite版打包文件名异常",
+                "修复 退出时逻辑不合理",
+                "重构 发行中心 CLI 与发版流程"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.2b1/EasiAuto_v1.2.2b1.zip",
+                    "sha256": "7e05db72db1509b4a6fec6bcbf4a540af3224557da3bbad92c6296a482c6f882"
+                },
+                {
+                    "channel": "lite",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.2b1/EasiAuto_v1.2.2b1_lite.zip",
+                    "sha256": "8758a47181fdb94b64705c350355417dc1e913ab027efcbace12cdc16368b5d2"
+                }
+            ]
+        },
+        "1.2.2b2": {
+            "is_dev": true,
+            "confirm_required": false,
+            "description": null,
+            "highlights": [],
+            "others": [
+                "新增 设置页单选组件",
+                "新增 持久化公告忽略状态与上次检查更新时间",
+                "优化 配置页面描述文本",
+                "优化 等待时间上限上调至 30 秒",
+                "优化 移除档案编辑中的冗余信息",
+                "优化 二维码登录-动态修补 DLL 保持未来版本兼容性",
+                "优化 二维码登录-希沃白板退出登录请求不再无条件拦截",
+                "优化 二维码登录-非 EasiAuto 档案账户登录后可正常销毁 token"
+            ],
+            "downloads": [
+                {
+                    "channel": "default",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.2b2/EasiAuto_v1.2.2b2.zip",
+                    "sha256": "846f71a95c1d0e4d2051fe6194429f8dbe647096e3989b045a0de7ed2ff50d6a"
+                },
+                {
+                    "channel": "lite",
+                    "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.2b2/EasiAuto_v1.2.2b2_lite.zip",
+                    "sha256": "add97a64920551c824e6f0ce9d392e7c0e8770756109d293aa7ac474d0288f43"
+                }
+            ]
+        }
+    }
+}

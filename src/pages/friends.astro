@@ -1,4 +1,5 @@
 ---
+import FriendCard from "@components/FriendCard.astro";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import { Icon } from "astro-icon/components";
 ---
@@ -12,45 +13,37 @@ import { Icon } from "astro-icon/components";
             <h1 class="text-2xl font-bold text-black dark:text-white">友链</h1>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <a href="https://xxtsoft.top" target="_blank" class="friend-card">
-                <div class="flex items-center gap-2">
-                    <img src="https://xxtsoft.top/favicon.ico" loading="lazy" class="w-5 h-5 rounded">
-                    <div class="font-bold text-black dark:text-white">xxtsoft</div>
-                </div>
-                <div class="text-sm text-black/50 dark:text-white/50">xxt8582753（BSOD-MEMZ）的个人网站</div>
-            </a>
-            <a href="https://www.lagsn.es" target="_blank" class="friend-card">
-                <div class="flex items-center gap-2">
-                    <img src="https://lagsn.es/avatar.jpg" loading="lazy" class="w-5 h-5 rounded">
-                    <div class="font-bold text-black dark:text-white">LAGSNES</div>
-                </div>
-                <div class="text-sm text-black/50 dark:text-white/50">LAGSNES - 个人主页</div>
-            </a>
-            <a href="https://2x.nz" target="_blank" class="friend-card">
-                <div class="flex items-center gap-2">
-                    <img src="https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0" loading="lazy" class="w-5 h-5 rounded">
-                    <div class="font-bold text-black dark:text-white">AcoFork Blog</div>
-                </div>
-                <div class="text-sm text-black/50 dark:text-white/50">二叉树树的博客，为本站提供了相当一部分的灵感及代码</div>
-            </a>
+            <FriendCard 
+                url="https://xxtsoft.top", 
+                name="xxtsoft", 
+                description="xxt8582753（BSOD-MEMZ）的个人网站", 
+                icon_url="https://xxtsoft.top/favicon.ico",
+            />
+            <FriendCard 
+                url="https://www.lagsn.es",
+                name="LAGSNES", 
+                description="LAGSNES - 个人主页", 
+                icon_url="https://lagsn.es/avatar.jpg",
+            />
+            <FriendCard 
+                url="https://2x.nz",
+                name="AcoFork Blog", 
+                description="二叉树树的博客，为本站提供了相当一部分的灵感及代码", 
+                icon_url="https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0",
+            />
         </div>
 
-        <!-- 申请友链 -->
-        <div class="sponsors-section mt-8">
+    <!-- 申请友链 -->
+    <div class="sponsors-section mt-8">
         	<h2 class="text-xl font-bold text-black dark:text-white mb-4 flex items-center gap-2">
         		<Icon name="material-symbols:group" class="text-[1.5rem] text-[var(--primary)]"/>
         		将您的网站加入本站友链
         	</h2>
         	<p class="text-sm text-black/60 dark:text-white/60">
-        		请通过邮件联系站长
+        		请<a href="mailto://hxabcd1234@outlook.com">通过邮件联系站长</a>
         	</p>
         <br>
     </div>
 
 </MainGridLayout>
 
-<style>
-.friend-card {
-    @apply flex flex-col gap-1 p-4 rounded-lg bg-[var(--card-bg)] hover:bg-black/5 dark:hover:bg-white/5 transition;
-}
-</style>
